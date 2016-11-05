@@ -8,6 +8,11 @@
 spring:
   thymeleaf:
     cache: false
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/readinglist
+#    username: root
+#    password: jovica12
+#    driver-class-name: com.mysql.jdbc.Driver
 
 ### isnt working in application.yml (works in application.properties)
 #spring:
@@ -20,3 +25,10 @@ server:
 #    key-store: file://mykeys.jks
 #    key-store-password: jovica12
 #    key-password: jovica12
+
+#logging:
+#  path: /var/logs/
+#  file: BookWorm.log
+#  level:
+#    root: WARN
+#    org.springframework.security: DEBUG
